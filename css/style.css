@@ -168,33 +168,17 @@ html {
 }
 
 /* FAQ Section */
-#faq .accordion-item {
-  border-color: #e0e0e0;
-  margin-bottom: 1rem;
-  border-radius: 0.25rem;
-  overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-#faq .accordion-button {
+#faq .faq-question {
   font-family: 'Playfair Display', serif;
-  font-size: 1.2rem;
-  color: #333;
-  background-color: #f8f9fa;
+  font-size: 1.3rem;
+  color: #c8a97e;
   font-weight: bold;
+  margin-bottom: 0.75rem;
+  padding-left: 1rem;
+  border-left: 3px solid #c8a97e;
 }
 
-#faq .accordion-button:not(.collapsed) {
-  color: #fff;
-  background-color: #c8a97e;
-  box-shadow: none;
-}
-
-#faq .accordion-button:focus {
-  box-shadow: 0 0 0 0.25rem rgba(200, 169, 126, 0.5);
-}
-
-#faq .accordion-body {
-  background-color: #fff;
-  padding: 1.5rem;
+#faq .faq-answer {
+  padding-left: 1rem;
+  line-height: 1.8;
 }
